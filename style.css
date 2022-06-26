@@ -105,4 +105,15 @@ html {
        
     }
     
+    .error {
+        background: #ff3333;
+        color: white;
+        padding: 2px 13px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        border-radius: 15px;
+  }
+    
+    
 }
