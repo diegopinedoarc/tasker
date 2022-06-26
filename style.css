@@ -16,7 +16,7 @@ html {
     --oscuro: rgb(16, 0, 7);
 
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
     body {
         display: flex;
         flex-direction: column;
@@ -79,6 +79,115 @@ html {
     }
     .addTask {
         width: 10rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        background: var(--agua);
+        border: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        
+    }
+    .addTask:hover {
+        width: 10rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        background: var(--tinto);
+        border: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: aliceblue;
+    }
+
+    .list_tasks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+    .error {
+        background: #ff3333;
+        color: white;
+        padding: 2px 13px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        border-radius: 15px;
+  }
+    
+    
+}
+@media (max-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        
+       
+    }
+    .header {
+        display: flex;
+        
+
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 18rem;
+    }
+    .hero_titulo {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .textoResaltado {
+        font-size: 4.5rem;
+        font-weight: bold;
+        font-family: 'Fascinate', cursive;
+    }
+    .hero_subtitulo {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    .toDoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .toDo_titulo {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .input_btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+        gap: 2rem;
+        
+
+    }
+    .inputText {
+        width: 20rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        text-align: center;
+        
+        
+        
+
+    }
+    .addTask {
+        width: 20rem;
         height: 3rem;
         border-radius: 0.8rem;
         background: var(--agua);
