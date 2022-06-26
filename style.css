@@ -243,6 +243,8 @@ html {
     margin-bottom: 2rem;
     padding: 0.5rem;
     
+    gap: 10px;
+    
   }
  
   li {
@@ -252,6 +254,7 @@ html {
     width: auto;
     justify-content: center;
     align-items: center;
+   
   }
     
     
@@ -272,5 +275,16 @@ html {
     height: 1.5rem;
     border-radius: 8px;
     border: none;
+  }
+  .liAdded {
+    background: aliceblue;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    text-align: center;
+    overflow: scroll;
   }
 
