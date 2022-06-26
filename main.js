@@ -42,7 +42,7 @@ function createHTML() {
     listContainer.innerHTML = "";
     tasks.forEach((task) => {
         const li = document.createElement('li');
-        li.innerHTML = `<li id="i" onclick="remove(event)">${task.task} <span data-id='${task.id}'><i class="fa-solid fa-square-check"></i></span></li>`;
+        li.innerHTML = `<li id="i" onclick="remove(event)">${task.task} <span data-id='${task.id}' ><i class="fa-solid fa-square-check"></i></span></li>`;
         listContainer.appendChild(li);
     });
 }
@@ -62,19 +62,6 @@ function remove(e) {
     element.remove();
     listContainer.innerHTML = "";
     
-  }
+}
 
-// function remove() {
-//     let element = document.getElementById("checked");
-//     // element.remove();
-    
 
-//   }
-// checked.addEventListener('click', remove);
-// let borrarElemento = () => {
-//    tasks.forEach((borrar) => {
-//     borrar.li.remove();
-//    })
-// } 
-
-// console.log(checked) 
