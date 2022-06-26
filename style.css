@@ -293,6 +293,7 @@ html {
     margin: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 40vw;
     text-align: center;
  

@@ -85,7 +85,7 @@ let addDeleteBtn = () => {
         const item = e.target.parentElement;
         // Aca le indicamos que queremos borrar el elemento hijo
         listContainer.removeChild(item);
-        tasks.splice(0, tasks.length - 0);
+        tasks.splice(tasks.length - 1, tasks.length - 0);
     })
     return deleteBtn;
 
