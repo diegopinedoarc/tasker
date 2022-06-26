@@ -283,7 +283,7 @@ html {
     margin: 10px;
     display: flex;
     align-items: center;
-    width: 50vw;
+    width: 80vw;
     text-align: center;
     overflow: scroll;
   }
