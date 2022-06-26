@@ -256,7 +256,17 @@ html {
     align-items: center;
    
   }
-    
+  .liAdded {
+    background: aliceblue;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    text-align: center;
+    overflow: scroll;
+  }
     
     
 }
@@ -283,8 +293,8 @@ html {
     margin: 10px;
     display: flex;
     align-items: center;
-    width: 80vw;
+    width: 40vw;
     text-align: center;
-    overflow: scroll;
+ 
   }
 
