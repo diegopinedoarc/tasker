@@ -18,18 +18,23 @@
         <h2 class="hero_subtitulo">Empeza a organizar tu dia ya </h2>
         <p>Solo escribi las tareas a realizar, cuando la termines clickea en el boton y se borrara.</p>
         </section>
-        <div class="toDoContainer">
-            <h3 class="toDo_titulo">Tareas a realizar    <i class="fa-solid fa-list-check">  </i></h3>
+        <div class="container">
+            <h2>Tareas a realizar</h2>
             <div class="input_btn">
-                <input type="text" id="inputText" class="inputText" placeholder="Ingresa la tareaa realizar">
-                <button class="addTask" id="addTask">Agregar</button>
+                <form>
+                    <input class="inputText" type="text" placeholder="Agregar tarea...">
+                    <button class="addTask">Agregar</button>
+                </form>
             </div>
-            <div class="list_tasks">
-                <ul class="list_container" id="list_container">
-                    <li class="liAdded">No tienes tareas pendientes <span id="checked"><i class="fa-solid fa-square-check"></i></span></li>
+            <div class="li-container">
+                <ul>
+                    
                 </ul>
             </div>
-        </div>
+            <div class="empty">
+                <p>No tienes tareas pendientes.</p>
+            </div>
+        
 
        
         
@@ -40,3 +45,28 @@
     <script src="main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- 
+Viene de la version 1.0 Tasker a reintentar en otro momento
+
+<div class="toDoContainer">
+    <h3 class="toDo_titulo">Tareas a realizar    <i class="fa-solid fa-list-check">  </i></h3>
+    <div class="input_btn">
+        <form>
+            <input type="text" id="inputText" class="inputText" placeholder="Ingresa la tarea a realizar">
+        <button class="addTask" id="addTask">Agregar</button>
+        </form>
+    </div>
+    <div class="list_tasks">
+        <ul class="list_container" id="list_container">
+            <li class="liAdded">No tienes tareas pendientes <span id="checked"><i class="fa-solid fa-square-check"></i></span></li>
+        </ul>
+    </div>
+</div> -->

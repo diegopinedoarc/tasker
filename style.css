@@ -49,11 +49,14 @@ html {
         margin-top: 1rem;
         font-size: 2rem;
     }
-    .toDoContainer {
+    .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 3rem;
+    }
+    .container h2 {
+        margin-bottom: 1rem;
     }
     .toDo_titulo {
         font-size: 1.5rem;
@@ -98,7 +101,7 @@ html {
         color: aliceblue;
     }
 
-    .list_tasks {
+    .li-container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -172,7 +175,7 @@ html {
         text-align: center;
         margin-bottom: 1rem;
     }
-    .toDoContainer {
+    .container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -254,6 +257,7 @@ html {
     width: auto;
     justify-content: center;
     align-items: center;
+    
    
   }
   .liAdded {
@@ -266,6 +270,7 @@ html {
     width: 80vw;
     text-align: center;
     overflow: scroll;
+    
   }
     
     
@@ -294,8 +299,9 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40vw;
+    width: 70vw;
     text-align: center;
- 
+    gap: 2rem;
+   
   }
 
